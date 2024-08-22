@@ -1,0 +1,118 @@
+body {
+    background-color: rgb(184, 184, 184);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+    width: auto;
+    height: 600px;
+    background-image: url("intro.jpg");
+    background-size: 1500px 700px;
+    background-repeat: no-repeat;
+    border: 1px solid black;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    border-radius: 15px;
+}
+
+header h1 {
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 2px rgb(110, 110, 110);
+    font-size: 38px;
+    font-weight: light;
+    font-family: 'Times New Roman', Times, serif;
+    font-style:oblique;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+.summary {
+    /* border: 1px solid black; */
+    margin-top: 100px;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none;
+}
+
+.summary h2 {
+    padding-left: 20px;
+    font-size: 40px;
+    font-weight: light;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.summary li {
+    font-size: 26px;
+    margin-bottom: 5px;
+}
+
+.summary-container {
+    height: 1000px;
+    position: relative;
+}
+
+.half {
+    position: absolute;
+    top: 0;
+}
+
+.sum-para-container {
+    width: 600px;
+    height: auto;
+    padding: 20px;
+}
+
+.sum-para-container p {
+    font-size: 29px;
+}
+
+.sum-para-container strong{
+    font-size: 29px;
+}
+
+
+.illustration {
+    margin-top: 150px;
+    background-image: url("mac2.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 400px;
+    right: 0;
+}
+
+main {
+    /* border: 1px solid black; */
+    width: auto;
+    height: 100vh;
+}
+
+
+.carousel h2{
+    /* border: 1px solid black; */
+    padding-left: 20px;
+    font-size: 40px;
+    font-weight: light;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: center;
+    user-select: none;
+}
+
+.carouselContainer {
+    width: 1200px;
+    height: 600px;
+    margin:auto;
+    border: 1px solid black;
+}
+
+
+footer {
+    margin-top: 100px;
+}
