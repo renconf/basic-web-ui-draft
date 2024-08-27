@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: auto;
+    height: 100vh;
+    background-image: url(black_and_white_image_of_snow_covered_mountains_trees_4k_hd_nature.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    color: #660000b4;
+    font-size: 20em;
+}
+
+body {
+    min-height: 800vh;
+    background-color: rgba(0, 0, 0, 0.884);
+}
