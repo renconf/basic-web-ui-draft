@@ -91,7 +91,7 @@ a {
 }
 
 #A1:hover, #A2-left:hover, #A2-right:hover, #B:hover {
-    border-color: rgb(255, 0, 0);
+    border-color: rgb(255, 255, 255);
 }
 
 #A1:active, #A2-left:active, #A2-right:active, #B:active {
