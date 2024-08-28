@@ -20,7 +20,42 @@ header h1 {
     font-size: 20em;
 }
 
+h2 {
+    color: snow;
+}
+
 body {
-    min-height: 800vh;
+    min-height: 600vh;
     background-color: rgba(0, 0, 0, 0.884);
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    border: 2px dashed white;
+}
+
+.container {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.section1, .section3 {
+    text-align: left;
+    justify-content: right;
+}
+
+.section2, .section4 {
+    text-align: left;
+    justify-content: left;
+}
+
+.section2 .container, .section4 .container {
+    margin-left: 2em;
+}
+
+.section4 .container {
+    width: 70%;
 }
